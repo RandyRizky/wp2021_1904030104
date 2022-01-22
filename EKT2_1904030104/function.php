@@ -118,3 +118,9 @@ function search($keyword)
   }
   return $rows;
 }
+function delete($iid)
+{
+  global $conn;
+  mysqli_query($conn, "DELETE FROM daftar_dosen WHERE id =$iid") or die(mysqli_error($conn));
+  return mysqli_affected_rows($conn);
+}

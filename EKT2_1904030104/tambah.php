@@ -77,7 +77,7 @@ if (isset($_POST['tambah'])) {
           <hr>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#"><i class="fas fa-chalkboard-teacher"></i> Daftar Dosen</a>
+          <a class="nav-link text-white" href="dosen.php"><i class="fas fa-chalkboard-teacher"></i> Daftar Dosen</a>
           <hr>
         </li>
         <li class="nav-item">
